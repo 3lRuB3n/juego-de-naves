@@ -27,13 +27,32 @@ dccc.a242fddbf242a.dbba
 ..........cac..........
 ...........c...........
 `;
+            case "image1":
+            case "Nave Galaga":return img`
+. . . . . . . 1 . . . . . . . 
+. . . . . . . 1 . . . . . . . 
+. . . . . . . 1 . . . . . . . 
+. . . . . . 1 1 1 . . . . . . 
+. . . . . . 1 1 1 . . . . . . 
+. . . 2 . . 1 1 1 . . 2 . . . 
+. . . 2 . . 1 1 1 . . 2 . . . 
+. . . 1 . 1 1 1 1 1 . 1 . . . 
+. . . 1 . 1 1 1 1 1 . 1 . . . 
+2 . . 1 8 1 1 2 1 1 8 1 . . 2 
+2 . . 8 1 1 2 2 2 1 1 8 . . 2 
+1 . . 1 1 1 2 1 2 1 1 1 . . 1 
+1 . 1 1 1 1 1 1 1 1 1 1 1 . 1 
+1 1 1 1 2 1 1 1 1 1 2 1 1 1 1 
+. . . 2 2 1 1 1 1 1 2 2 . . . 
+. . . 2 2 . . 1 . . 2 2 . . . 
+`;
         }
         return null;
     })
 
     helpers._registerFactory("animation", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "Animación Nave":
+            case "Animación Nave 1":
             case "*8bR,5xhb`+Q":return [img`
 ...........d...........
 ..........d6c..........
